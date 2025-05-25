@@ -25,12 +25,12 @@ This project is specially designed for the data class of the proposition track o
 MC-BERT is a novel conceptualized representation learning approach for the medical domain. First, we use a different mask generation procedure to mask spans of tokens, rather than only random ones. We also introduce two kinds of masking strategies, namely whole entity masking and whole span masking. Finally, MC-BERT split the input document into segments based on the actual "sentences" provided by the user as positive samples and sample random sentences from other documents as negative samples for the next sentence prediction.
 
 
-![](https://github.com/alibaba-research/ChineseBLUE/raw/master/figs/c_bert_model.jpg)
+## More detail:
 
-More detail:
 https://github.com/alibaba-research/ChineseBLUE
 
 https://huggingface.co/freedomking/mc-bert/tree/main
+
 
 本工程代码提供是本地读取模型，可改为调用huggingface的模型
 
@@ -39,28 +39,19 @@ https://huggingface.co/freedomking/mc-bert/tree/main
 environment.yml
 
 ## 结果
-计算评估指标: 0it [00:00, ?it/s]Building prefix dict from the default dictionary ...
-Loading model from cache C:\Users\pc\AppData\Local\Temp\jieba.cache
-Loading model cost 0.272 seconds.
-Prefix dict has been built successfully.
-计算评估指标: 2100it [00:00, 3937.91it/s]
-准确率: 0.8329
+准确率: 0.8529
 精确率: 0.7718
 召回率: 0.7810
 F1 分数: 0.7709
 平均 BLEU 分数: 0.4151
 平均 ROUGE-1 F1 分数: 0.8865
-平均 ROUGE-2 F1 分数: 0.7746
+平均 ROUGE-2 F1 分数: 0.7846
 平均 ROUGE-L F1 分数: 0.8863
 预测结果已保存至 submission.csv
 
 ## 其他
 代码已给大量注释说明
 使用了sentence-bert分词
-代码是做了多次迭代，其他方案或前几代版本请私信我
-https://github.com/UKPLab/sentence-transformers
-![alt text](./picture/image_1.png)
-bert模型
 
-![alt text](./picture/image_2.png)
+
 

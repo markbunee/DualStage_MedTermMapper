@@ -9,7 +9,7 @@
 This project is specially designed for the data class of the proposition track of the Guangdong Biomedical Engineering Competition, and a multi-model collaborative mapping method based on BERT is proposed to realize the standardization of medical terms. Our solution combines the advantages of the similarity calculation model and the text pair matching model, aiming to provide a lightweight and low computational cost dual-model matching mechanism.
 
 我们的模型
-![alt text](./picture/method.png)
+![alt text](method.png)
 
 
 
